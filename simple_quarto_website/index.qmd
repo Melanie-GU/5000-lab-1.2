@@ -1,0 +1,82 @@
+---
+title: "Quarto Website"
+author: "Qiyue GU"
+bibliography: reference.bib
+format: 
+  html:
+    toc: true
+---
+
+# Introduction
+
+This is a Quarto website made by Melanie.
+
+## Requirements
+
+### Formatted text with two columns
+<div style="display: flex;">
+
+<div style="flex: 1; padding: 10px;">
+**Bold text:**
+I am no bird; and no net ensnares me: I am a free human being with an independent will.
+</div>
+
+<div style="flex: 1; padding: 10px;">
+*italic text: *
+If you shed tears when you miss the sun, you also miss the stars.
+</div>
+
+</div>
+
+### Bullet list
+
+- a
+- b
+- c
+
+### A Markdown Table
+
+| R code              | Description                   |
+|----------------------|-------------------------------|
+| c()      | create a vector      |
+| mean()  | calculate the average of a list of numbers   |
+| lm()    | generate linear regression  |
+
+### Inline Math
+
+The area of a circle is given by the formula $A = \pi r^2$, where $r$ is the radius.
+
+### Footnote
+
+This is an example of a footnote[^1].
+
+### Quote
+
+> "Love all, trust a few, do wrong to none." — Shakespeare 
+
+### Image Embedding
+
+![Image 1](images/image1.png "Venn Diagram")
+
+![Image 2](images/image2.png "Bayer's Rule")
+
+### Video Embedding
+
+Data Science In 5 Minutes | Data Science For Beginners | What Is Data Science? | Simplilearn
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=X3paOmcrTjQ" frameborder="0" allowfullscreen></iframe>
+
+### Mermaid Diagram
+
+```{mermaid}
+graph TD;
+    A[Start] --> B{Is this working?};
+    B -- Yes --> C[Good];
+    B -- No --> D[Try again];
+```
+
+### Reference
+
+For more details, refer to the work of Funnell et al. (2007) [@funnell2007dsme].
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
